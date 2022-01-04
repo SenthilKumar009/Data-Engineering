@@ -75,7 +75,7 @@ object word_count extends App{
    * .map((_, 1))
    * .reduceByKey(_ + _)
    * .collect.foreach(println)
-   * This single like code is a way to combine the code together and execute it better way
+   * This single like code is a way to combine the code together and execute it better way.
    * _ use as a variable to minimize the code further.
   */ 
   
