@@ -5,3 +5,4 @@ val countWord = mapWord.reduceByKey(_+_)
 countWord.collect()
 
 countWord.saveAsTextFile("G:/BigData-OLC/DataSet/output/wordcount.txt")
+System.exit(0)
